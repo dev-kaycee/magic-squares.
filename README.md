@@ -3,7 +3,7 @@
 
 This function generates a magic square of size n. A magic square is an n x n grid filled with distinct positive integers in the range [1, n^2], such that the sum of each row, column, and diagonal is the same. The function takes an integer n as input and returns a list of lists representing the magic square.
 
-Parameters:
+### Parameters:
 
 n (int): the size of the magic square to be generated
 Raises:
@@ -23,7 +23,7 @@ Documentation for print_magic_square(magic_square: list[list[int]])
 
 This function prints out the magic square in a legible format. The function takes a list of lists representing the magic square as input and prints it to the console.
 
-Parameters:
+### Parameters:
 
 magic_square (list[list[int]]): a list of lists representing the magic square
 Returns:
@@ -38,7 +38,7 @@ Documentation for verify_magic_square(magic_square: list[list[int]]) -> bool
 
 This function verifies that the given square is a magic square. The function takes a list of lists representing the magic square as input and returns a boolean indicating whether or not it is a magic square.
 
-Parameters:
+### Parameters:
 
 magic_square (list[list[int]]): a list of lists representing the magic square
 Returns:
